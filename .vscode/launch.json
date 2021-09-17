@@ -5,6 +5,47 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "leetcodejava.tempCodeRunnerFile",
+            "projectName": ".leetcode_4a061c1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2",
+            "request": "launch",
+            "mainClass": "leetcodejava.Solution2",
+            "projectName": ".leetcode_4a061c1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "leetcodejava.Solution",
+            "projectName": ".leetcode_4a061c1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "leetcodejava.Main",
+            "projectName": ".leetcode_4a061c1d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": ".leetcode_4a061c1d"
+        },
+        {
             "name": "(gdb) 附加",
             "type": "cppdbg",
             "request": "attach",
