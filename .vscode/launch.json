@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": ".leetcode_4a061c1d"
+        },
+        {
+            "type": "java",
             "name": "Launch tempCodeRunnerFile",
             "request": "launch",
             "mainClass": "leetcodejava.tempCodeRunnerFile",

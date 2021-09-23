@@ -3,14 +3,30 @@
  *
  * [605] 种花问题
  */
+#include <string>
+#include <iostream>
 
+using namespace std;
 // @lc code=start
 class Solution {
-public:
-    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-        for (int i = 0; i<)
+private:
+    void test2() {
 
+    }
+public:
+    int a = 0;
+    void test() {
+        std::string s;
+        string s;
+        s.find_last_not_of(" ");
+        char c = ' ';
+        string s2 = " ";
     }
 };
 // @lc code=end
 
+int main() {
+    Solution s;
+    s.test();
+    s.test2();
+}

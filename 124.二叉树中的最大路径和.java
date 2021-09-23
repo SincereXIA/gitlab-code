@@ -85,10 +85,16 @@ class Solution {
         }
         int maxL = pathSum(root.left);
         int maxR = pathSum(root.right);
+        if (maxL < 0) {
+            maxL = 0;
+        }
+        if (maxR < 0) {
+            maxR = 0;
+        }
         int sum = maxL + maxR + root.val;
         if (max == null || max < sum) {
             max = sum;
-            System.out.println(max);
+            // System.out.println(max);
         }
         return maxL > maxR ? maxL + root.val : maxR + root.val;
     }
